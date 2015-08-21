@@ -1,5 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This file contains a set of two functions which store in caché a matrix and
+## its corresponding inverse in order to avoid repetitive matrix inverse
+## computations. If the matrix has already been stored and its inverse computed,
+## then the inverse is returned to the user without inverting the matrix again.
+
+
 
 ## This function returns a list object containing four functions to obtain
 ## and set a non-singular matrix and its corresponding inverse
